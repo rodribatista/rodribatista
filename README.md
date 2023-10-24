@@ -1,18 +1,18 @@
 ```java
 public class WhoIAm {
 
-  String user = "Rodrigo Batista";
-  String education = "Software Developer - Backend Specialist";
+  public String user = "Rodrigo Batista";
+  public String education = "Software Developer - Backend Specialist";
 
-  static String getCity() {
+  public static String getCity() {
     return "Montevideo, Uruguay";
   }
 
-  static Boolean isWorking() {
+  public Boolean isWorking() {
     throw new Error("Looking my first IT job opportunity");
   }
 
-  void printSkills() {
+  public void printSkills() {
     skills.forEach(System.out::println);
   }
 
