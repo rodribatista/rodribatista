@@ -38,7 +38,7 @@ public class Main {
 ```
 
 ```bash
-OUTPUT 'Main':
+TERMINAL OUTPUT 'Main':
 
   Languages: [ Java, Go, JavaScript (ES6), HTML5, CSS3, SQL, Bash ]
 
