@@ -2,7 +2,13 @@
 public class WhoIAm {
 
   public String user = "Rodrigo Batista";
-  public String education = "Software Developer - Backend Specialist";
+
+  public String title = "Software Developer";
+
+  public String[] nextGoals = {
+    "Finish Backend Specialist studies",
+    "Learning NodeJS and Typescript"
+  };
 
   public static String getCity() {
     return "Montevideo, Uruguay";
@@ -34,13 +40,13 @@ public class Main {
 ```bash
 OUTPUT 'Main':
 
-  Lenguajes: [ Java, Go, JavaScript (ES6), HTML5, CSS3, SQL, Bash ]
+  Languages: [ Java, Go, JavaScript (ES6), HTML5, CSS3, SQL, Bash ]
 
   Frameworks: [ Spring, React ]
 
-  Protocolos: [ REST ]
+  Protocols:: [ REST ]
 
-  Bases de datos: [ MySQL, PostgreSQL, MongoDB ]
+  Databases: [ MySQL, PostgreSQL, MongoDB ]
 
   Testing: [ JUnit, Jest, Selenium, RestAssured ]
 
