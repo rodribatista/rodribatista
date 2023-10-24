@@ -1,16 +1,50 @@
-### Hi there 👋
+```java
+public class WhoIAm {
 
-<!--
-**rodribatista/rodribatista** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  String user = "Rodrigo Batista";
+  String education = "Software Developer - Backend Specialist";
 
-Here are some ideas to get you started:
+  static String getCity() {
+    return "Montevideo, Uruguay";
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  static Boolean isWorking() {
+    throw new Error("Looking my first IT job opportunity");
+  }
+
+  void printSkills() {
+    skills.forEach(System.out::println);
+  }
+
+}
+
+public class Main {
+
+  public static void main(String[] args) {
+
+    WhoIAm myself = new WhoIAm();
+
+    myself.printSkills();
+
+  }
+
+}
+```
+
+```bash
+OUTPUT 'Main':
+
+  Lenguajes: [ Java, Go, JavaScript (ES6), HTML5, CSS3, SQL, Bash ]
+
+  Frameworks: [ Spring, React ]
+
+  Protocolos: [ REST ]
+
+  Bases de datos: [ MySQL, PostgreSQL, MongoDB ]
+
+  Testing: [ JUnit, Jest, Selenium, RestAssured ]
+
+  Cloud: [ Docker, AWS, IaC, CI/CD, Git ]
+
+Process finished with exit code 0
+```
