@@ -7,7 +7,7 @@ public class WhoIAm {
 
   public String[] nextGoals = {
     "Finish Backend Specialist studies",
-    "Learning NodeJS and Typescript"
+    "Learn NodeJS and Typescript"
   };
 
   public static String getCity() {
