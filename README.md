@@ -5,13 +5,8 @@ public class WhoIAm {
 
   public String title = "Software Developer";
 
-  public String[] nextGoals = {
-    "Finish Backend Specialist studies",
-    "Learn NodeJS and Typescript"
-  };
-
-  public static String getCity() {
-    return "Montevideo, Uruguay";
+  public static String getCountry() {
+    return "Uruguay";
   }
 
   public Boolean isWorking() {
